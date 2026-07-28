@@ -3,12 +3,12 @@
 Todo List:
 
 1. Navigation Bar - done for now
-2. Experience Page
+2. Experience Page - done for now
 3. About Page
-4. Contact Page
-5. Home Page
-6. Leadership Page
-7. Projects Page
+4. Resume Page
+5. Home Page - done for now
+6. Leadership Page - done for now
+7. Projects Page - done for now
 
 8. Adapt for mobile, ipad, laptop, pc
 9. Light and dark mode
