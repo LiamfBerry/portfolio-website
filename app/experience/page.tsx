@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const experiences = [
-    {date: "date", logo: "/logo", title: "title", position: "position", location: "location", description: "description"},
-    {date: "date", logo: "/logo", title: "title", position: "position", location: "location", description: "description"},
-    {date: "date", logo: "/logo", title: "title", position: "position", location: "location", description: "description"},
-    {date: "date", logo: "/logo", title: "title", position: "position", location: "location", description: "description"},
-    {date: "date", logo: "/logo", title: "title", position: "position", location: "location", description: "description"},
+    {date: "date", logo: "/logo", title: "title1", position: "position", location: "location", description: "description"},
+    {date: "date", logo: "/logo", title: "title2", position: "position", location: "location", description: "description"},
+    {date: "date", logo: "/logo", title: "title3", position: "position", location: "location", description: "description"},
+    {date: "date", logo: "/logo", title: "title4", position: "position", location: "location", description: "description"},
+    {date: "date", logo: "/logo", title: "title5", position: "position", location: "location", description: "description"},
 ]
 
 function ExperienceCard({ date, logo, title, position, location, description }: { date: string, logo: string, title: string, position: string, location: string, description: string}) {
@@ -37,7 +37,7 @@ export default function Experience() {
             <h1>My Experience</h1>
             <div className="border-l-1">
                 {experiences.map((experience) => (
-                    <ExperienceCard date={experience.date} logo={experience.logo} title={experience.title} position={experience.position} description={experience.description} location={experience.location} />
+                    <ExperienceCard key={experience.title} date={experience.date} logo={experience.logo} title={experience.title} position={experience.position} description={experience.description} location={experience.location} />
                 ))}
             </div>
             <h1>Testing Again</h1>
