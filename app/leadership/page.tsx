@@ -24,7 +24,7 @@ function LeadershipCard({ date, link, title, org, description, photo, id }: { da
 
 export default function Leadership() {
     return (
-        <div className="grid grid-rows-2 px-8">
+        <div className="grid grid-rows-2">
             <div className="grid grid-cols-2">
                 <div className="text-4xl">Leadership Experience</div>
                 <div className="text-4xl">Photo Goes Here</div>

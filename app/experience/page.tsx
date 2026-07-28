@@ -33,7 +33,7 @@ function ExperienceCard({ date, logo, title, position, location, description }: 
 
 export default function Experience() {
     return (
-        <div className="px-4 grid grid-cols-3 items-top">
+        <div className="grid grid-cols-3 items-top">
             <h1>My Experience</h1>
             <div className="border-l-1">
                 {experiences.map((experience) => (
