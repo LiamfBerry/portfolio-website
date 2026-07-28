@@ -11,7 +11,7 @@ const pages = [
     {title: "Projects", link: "/projects"},
     {title: "Experience", link: "/experience"},
     {title: "Leadership", link: "/leadership"},
-    {title: "Resume", link: "/resume"},
+    {title: "Resume", link: "/Liam_Resume.pdf"},
 ]
 
 function Page({ title, link }: {title: string; link: string}) {
