@@ -4,8 +4,8 @@ Todo List:
 
 1. Navigation Bar - done for now
 2. Experience Page - done for now
-3. About Page
-4. Resume Page
+3. About Page - done for now
+4. Resume Page - done for now
 5. Home Page - done for now
 6. Leadership Page - done for now
 7. Projects Page - done for now
