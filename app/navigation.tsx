@@ -11,7 +11,7 @@ const pages = [
     {title: "Projects", link: "/projects"},
     {title: "Experience", link: "/experience"},
     {title: "Leadership", link: "/leadership"},
-    {title: "Contact", link: "/contact"},
+    {title: "Resume", link: "/resume"},
 ]
 
 function Page({ title, link }: {title: string; link: string}) {
@@ -26,8 +26,8 @@ function Page({ title, link }: {title: string; link: string}) {
 
 export default function NavigationBar() {
     return (
-        <div className="p-12 grid grid-cols-3 items-center sticky top-0 z-50">
-            <Link href="./" className="justify-self-start">
+        <div className="py-12 grid grid-cols-3 items-center sticky top-0 z-50">
+            <Link href="./" className="justify-self-start -mt-8 -mx-20">
                 <Image src={logo} alt="Portfolio Logo" width={100} height={100} />
             </Link>
             <ul className="flex justify-self-center gap-32 text-xl">
