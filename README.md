@@ -1,5 +1,7 @@
 # This is a page to my portfolio
 
+In a very rough state right now and not ready for deployment
+
 Todo List:
 
 1. Navigation Bar - done for now
